@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    margin: 100px;
+}
+
+body {	
+	background: linear-gradient(to bottom, #B721FF, #2AF598, #fec051, #FEE140, #FA709A );
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+body:before{
+	content:'';
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: -1;
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0), #21D4FD 75%);
+}
+#container2 {
+	background-color: rgba(255, 255, 255, 0.87);
+	margin: 80px 10%;
+	padding: 30px 60px;
+	border-radius: 20px;
+	box-shadow: 0 3px 26px 0 rgba(0,0,0,0.20);
+}
